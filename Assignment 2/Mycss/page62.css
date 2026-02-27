@@ -1,0 +1,22 @@
+/*helps image sit under text*/
+.container {
+   display: grid;
+   column-gap: 30px;
+   grid-template-columns: 400px 400px 400px;
+   grid-template-rows: 850px 650px;
+   background-color: rgb(230, 228, 227);
+   padding: 50px; 
+   line-height: 20px;  
+}
+
+.container div {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;   
+}
+
+/*font for questions*/
+p {
+    font-family: sans-serif;
+    font-weight: 700;
+}

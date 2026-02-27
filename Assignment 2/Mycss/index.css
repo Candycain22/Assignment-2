@@ -1,0 +1,45 @@
+/*centers header and mimics print magazine font*/
+header {
+  font-family: Impact;
+  font-size: 100px;
+  color: black;
+  font-weight: bold;
+  background-color: #2e7099;
+  text-align: center; 
+}
+
+ body {
+  display: center;
+  background-color: black;
+  color: white;
+}
+
+.page {
+  text-align: center;
+}
+
+
+/*for magzine cover*/
+.image-container {
+    width: 315px
+    height: 400px
+    
+}
+
+.image-container img{
+  width: 100%
+  height: 100%
+}
+
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(110, 199, 110);
+}
+
+
